@@ -1,6 +1,6 @@
-numr1 = int (input("Digite o primeiro numero:"))
-numr2 = int (input("Digite o segundo numero:"))
-numr3 = int (input("Digite o terceiro numero"))
+numr1 = int (input("Digite o primeiro número:"))
+numr2 = int (input("Digite o segundo número:"))
+numr3 = int (input("Digite o terceiro número"))
 
 resultado_a = (2* numr1) * (numr2 / 2)
 resultado_b = (3* numr1) + numr3
