@@ -2,14 +2,13 @@ primos = []
 numero = 2
 
 while len(primos) < 10:
-    eh_primo = True
-    for divisor in range(2, int(numero ** 0.5) + 1):
-        if numero % divisor == 0:
-            eh_primo = False
+    primo = True
+    for i in range(2, int(numero**0.5)+1):
+        if numero % i == 0:
+            primo = False
             break
-    if eh_primo:
+    if primo:
         primos.append(numero)
     numero += 1
 
-for p in primos:
-    print(p)
+print("Primeiros 10 números primos:", primos)

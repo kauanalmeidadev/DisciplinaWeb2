@@ -1,3 +1,5 @@
-texto_a = input("Digite o texto: ")
-texto_novo = texto_a.replace("banana", "Maçã")
-print(texto_novo)
+texto = input("Digite uma frase com a palavra banana:")
+
+texto_novo = texto.replace("banana","Maçã")
+
+print("Texto modificado:", texto_novo)

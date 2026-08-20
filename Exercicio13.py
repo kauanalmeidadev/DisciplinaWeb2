@@ -1,5 +1,6 @@
-frase = input("Digite uma frase: ")
-letra = input("Digite a letra que deseja contar: ")
+frase = input("Digite uma frase:")
+letra = input("Digite a letra que deseja contar:")
 
 quantidade = frase.count(letra)
-print(f"A letra '{letra}' aparece {quantidade} vezes na frase.")
+
+print("A letra", letra,"aparece", quantidade,"vezes na frase.")

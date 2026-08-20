@@ -1,3 +1,5 @@
-nome = input("Digite seu nome: ")
+nome = input("Digite seu nome:")
+
 nome_invertido = nome[::-1]
-print(nome_invertido)
+
+print("Seu nome ao contrário é:", nome_invertido)
